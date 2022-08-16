@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>云普发Yunpufa</title>
+    <link rel="icon" type="image/x-icon" href="../static/img/icon.png">
+    <script src="../static/js/jquery-3.6.0.min.js"></script>
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <script src="../static/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style>
+        body{font-family: "Microsoft YaHei", "Microsoft JhengHei", "Arial"; overflow-x: hidden}
+        .nav-link{color:#6d7f59}
+        /*body{background-color: #ecf9f2}*/
+    </style>
+    <script>
+        $(document).ready(function (){
+            $("#toHistory").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#history").offset().top
+                }, 50);
+            });
+        });
+    </script>
+</head>
+<body>
+
+<!--Header-->
+    <div class="container">
+        <div class="row">
+            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 ">
+            <a href="index.html">
+                <img class="bi me-2" width="80" height="80" role="img" src="../static/img/icon-top.png"></img>
+            </a>
+
+              <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 fs-5 ">
+                    <li class="nav-link px-3 " id="toHistory" style="cursor: pointer "> <a>品牌故事</a> </li>
+                    <li><a href="products.html" class="nav-link px-3 "> 产品系列 </a></li>
+                    <li><a href="informations.html" class="nav-link px-3 "> 品茗资讯 </a></li>
+                    <li><a href="members.html" class="nav-link px-3 "> 以茶会友 </a></li>
+                    <li><a href="contact.html" class="nav-link px-3 "> 联系我们 </a></li>
+                    <li><a href="https://yunpufa.com.au" target="_blank" class="nav-link px-3 "> 在线购物 </a></li>
+              </ul>
+
+
+            </header>
+        </div>
+
+    </div>
+
+<!--Intro Pics-->
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide shadow-lg" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../static/img/teamt33.jpg"  class="d-block w-100 " alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../static/img/teamt11.jpg"  class="d-block w-100 " alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../static/img/teamt77.jpg"  class="d-block w-100 " alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../static/img/teamt22.jpg"  class="d-block w-100 " alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../static/img/teamt44.jpg"  class="d-block w-100 " alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </div>
+
+<!--history-->
+<div class="px-4 pt-5 my-5 text-center b">
+    <h1 class="display-4 fw-bold" style="color: #6d7f59" id="history">雲南普洱茶產業發展有限公司</h1>
+    <div class="col-lg-6 mx-auto mt-5">
+      <p class="lead mb-4" style="color: #6d7f59">
+          雲南普洱茶產業發展有限公司（簡稱雲普發公司）是天大實業（中國）有限公司在雲南設立的全資子公司，主要致力於投資發展普洱茶產業。<br><br>
+          雲普發公司紮根普洱茶原產地雲南省，采大地之華，集大師之成，研製、 銷售、推廣普洱茶系列產品，包括以”中國夢·香約2049″、”中期韻·盡在芳華歲月”、”眾口福·開啟幸福人生”為主題的傳統普洱茶、養生普洱茶、快消普洱茶等，在繼承與創新的基礎上構建全新的市場營銷體系，傾情打造普洱茶全新品牌“雲普發”，積極傳播普洱茶文化，努力推動普洱茶成為“國茶”。<br><br>
+          粵港澳大灣區是最大的普洱茶消費地，雲普發公司助力母公司天大實業、 天大集團，立足大灣區中心城市珠海，投資興建集普洱茶倉儲交易、普洱茶品鑒體驗、普洱茶文化創意、普洱茶美食康養為—體的“灣區•普洱茶天地”項目， 推動普洱茶從大灣區出發，沿著“—帶—路”走向世界，讓更多國家和人民感受普洱茶的美妙和魅力。<br><br>
+          雲南普洱茶產業發展有限公司秉承天大集團“同心同力，盡善盡美”的企業精神，用心做好茶，以茶促發展，努力讓普洱茶香飄天下！
+      </p>
+    </div>
+    <div class="overflow-visible" style="max-height: 30vh;">
+      <div class="container px-5 mt-5">
+        <img src="../static/img/bg2.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+<div class="row" style="height: 50px"></div>
+
+<!--brand spirit-->
+<div class="px-4 pt-5 my-5 text-center">
+    <h1 class="display-4 fw-bold" style="color: #6d7f59">品牌理念</h1>
+    <div class="col-lg-6 mx-auto mt-5">
+      <p class="lead mb-4" style="color: #6d7f59">
+          普洱茶源于雲南，底蘊深厚，內涵豐富，越陳越香，滋味萬千，堪為國茶。歷經號級茶、印級茶、七子餅，沿著茶馬古道，普洱茶留香遠近，名揚遐邇。<br><br>
+          天大集團有限公司創始人方文權先生與雲南結緣於1988年，為助推普洱茶行穩致遠，香飄”一帶一路”，譽滿天下，遂于2019年成立雲南普洱茶產業發展有限公司，創立”雲普發”品牌，雲普發——提供全品類優質普洱茶。<br><br>
+          “雲普發”元年，恰逢新中國成立70周年，實現“中國夢”只待30年。從2019年開始，“雲普發”每年出精品，有心者每年品一品、存一餅，經過不同時段轉化，香約2049—讓我們相約中華民族偉大復興“中國夢”實現的榮光之時。<br><br>
+          這，就是“雲普發”及其“中國夢•香約2049”系列產品的初心和願景！
+      </p>
+    </div>
+    <div class="overflow-visible" style="max-height: 30vh;">
+      <div class="container px-5 mt-5">
+        <img src="../static/img/about11.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="500" height="400" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+<div class="row" style="height: 100px"></div>
+
+
+
+
+
+
+
+
+
+
+
+<!--Footer-->
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <img class="bi" width="40" height="40" src="../static/img/icon-top.png"></img>
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">© 2022 Tianda Group (Australia) Pty Ltd.</span>
+    </div>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook" style="color: #0a53be"></i></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram" style="color: purple"></i></a></li>
+    </ul>
+  </footer>
+</div>
+
+
+</body>
+</html>
